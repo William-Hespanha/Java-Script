@@ -85,10 +85,7 @@ function adicionarJogador (){
             if (removerNumero) {
                 const confirmacao = confirm(`Deseja remover o jogador com a camisa número ${removerNumero}?`);
                 if (confirmacao) {
-                    // Aqui você pode implementar a lógica para realmente remover o jogador da lista
-                    // Por exemplo, iterando sobre os elementos da lista de jogadores e removendo o que corresponde ao número informado
                     
-                    // Supondo que você tenha uma lista de jogadores (um array), você pode encontrar e remover o jogador assim:
                     const jogadorRemovido = document.querySelector(`#jogador-${removerNumero}`);
                     if (jogadorRemovido) {
                         jogadorRemovido.remove();
