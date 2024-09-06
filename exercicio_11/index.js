@@ -108,3 +108,5 @@ function adicionarJogador (){
         
 
     }
+
+//Fim do código
